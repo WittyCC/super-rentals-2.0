@@ -5,9 +5,11 @@ coded by {{author}}.  We hope you find exactly what you're looking for in a plac
 <ul>
   {{#each model as |rental|}}
      <!-- <li>{{rental.owner}}'s {{rental.type}} in {{rental.city}}</li> -->
-     {{rental-tile rental=rental}}
+     {{rental-tile rental=rental destroyRental="destroyRental"}}
   {{/each}}
 </ul>
+
+
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
