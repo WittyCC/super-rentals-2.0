@@ -13,17 +13,6 @@ export default Ember.Route.extend({
           console.log(e.errors);
         });
       this.transitionTo('index');
-    },
-
-    update(rental, params) {
-      debugger;
-      rental.save();
-      this.transitionTo('index');
-    },
-
-    destroyRental(rental) {
-      rental.destroyRecord();
-      this.transitionTo('index');
     }
   }
 });
