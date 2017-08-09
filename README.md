@@ -15,10 +15,11 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd super-rentals`
+* `git clone https://github.com/wcchang1382/super-rentals-2.0`
+* `cd super-rentals-2.0`
 * `npm install`
 * `bower install`
+* `npm install ember-cli-version-checker --save-dev`
 
 ## Running / Development
 
@@ -48,6 +49,5 @@ Specify what it takes to deploy your app.
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://ember-cli.com/)
 * Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+  * [Ember Inspector for Chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [Ember Inspector for Firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
